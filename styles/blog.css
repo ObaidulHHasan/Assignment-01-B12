@@ -1,173 +1,245 @@
-
-.inter-normal{
+.inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
 /* shared style */
-.text-primary{
-    color: rgba(78, 71, 255, 1);
+.text-primary {
+  color: rgba(78, 71, 255, 1);
 }
-.dark{
-    color: #252432;
+.dark {
+  color: #252432;
 }
-.btn-primary{
-    background-color: #4E47FF;
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 12px 36px;
-    border: none;
-    
+.btn-primary {
+  background-color: #4e47ff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 12px 36px;
+  border: none;
 }
-button:hover{
-    background-color: brown;
+button:hover {
+  background-color: brown;
 }
 /* header */
-.header{
-    background-image: url('../Assets/Hero-bg.png');
-    
+.header {
+  background-image: url("../Assets/Hero-bg.png");
 }
 /* nav styles */
-nav{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    margin: 0px 150px;
-    
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 150px;
 }
-.nav-title{
-    font-weight: 900;
-    font-size: 34px;
-    color: rgba(78, 71, 255, 1);
+.nav-title {
+  font-weight: 900;
+  font-size: 34px;
+  color: rgba(78, 71, 255, 1);
 }
-nav ul li{
-    list-style: none;
+nav ul li {
+  list-style: none;
 }
 /* banner  styles */
-.banner-title{
-    font-size: 65px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
+.banner-title {
+  font-size: 65px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
 }
-.banner-content{
-   width: 905px;
+.banner-content {
+  width: 905px;
 }
-.banner{
-    display: flex;
-    justify-content: center;
-    margin: 0 305px 265px;
-    text-align: center;
-    padding-bottom: 150px;
+.banner {
+  display: flex;
+  justify-content: center;
+  margin: 0 305px 265px;
+  text-align: center;
+  padding-bottom: 150px;
 }
 /* action styles */
-.action{
-    display: flex;
-    justify-content: space-between;
-    margin: 100px 160px 115px 140px;
+.action {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 160px 115px 140px;
 }
 
-.action-content{
-    max-width: 1140px;
-    
+.action-content {
+  max-width: 1140px;
 }
-   
-.action-title{
-    font-size: 42px;
-    font-weight: bold;
-    
+
+.action-title {
+  font-size: 42px;
+  font-weight: bold;
 }
-.action-sub-title{
-    font-size: 24px;
-    color: #252432;
-   margin-top: 10px;
-   
+.action-sub-title {
+  font-size: 24px;
+  color: #252432;
+  margin-top: 10px;
 }
-.section-profile{
-    border-radius: 48px;
-   
+.section-profile {
+  border-radius: 48px;
 }
 
 /* users section styles */
-.users{
-    border-radius: 25px;
-    max-width: 1015px;
-    margin: 0 auto;
-    padding: 50px 70px;
-    text-align: center;
-    margin-top: 115px;
+.users {
+  border-radius: 25px;
+  max-width: 1015px;
+  margin: 0 auto;
+  padding: 50px 70px;
+  text-align: center;
+  margin-top: 115px;
 }
 
-.section-title{
-    font-size: 38px;
-    font-weight: bold;
-   
-    
+.section-title {
+  font-size: 38px;
+  font-weight: bold;
 }
-.secondary-bg{
-    background-color:rgba(78, 71, 255, 0.1)
+.secondary-bg {
+  background-color: rgba(78, 71, 255, 0.1);
 }
-.item-title{
-    font-size: 80px;
-    font-weight: bold;
-    color: #4E47FF;
+.item-title {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4e47ff;
+  line-height: 0;
 }
-.item-description{
-    font-size: 20;
-    color: #000000;
-   
+.item-description {
+  font-size: 20;
+  color: #000000;
 }
-.section-items{
-    display: flex;
-    justify-content: space-around;
+.section-items {
+  display: flex;
+  justify-content: space-around;
 }
 
+/* Testimonial Banner Section */
+.testimonial-banner {
+  padding: 80px 150px;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.testimonial-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  color: #252432;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.stars {
+  margin-bottom: 20px;
+}
+
+.star {
+  color: #ffd700;
+  font-size: 20px;
+  margin-right: 2px;
+}
+
+.testimonial-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #252432;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.reviewer-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.reviewer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewer-name {
+  font-weight: 600;
+  color: #252432;
+  font-size: 14px;
+}
+
+.reviewer-title {
+  color: #999;
+  font-size: 12px;
+}
 /* Get in touch section */
-.touch-section{
-    padding: 92px 150px 50px 150px;
-    display: flex;
-    gap: 100px; 
+.touch-section {
+  padding: 92px 150px 50px 150px;
+  display: flex;
+  gap: 100px;
 }
-.touch-column{
-    width: 50%;
+.touch-column {
+  width: 50%;
 }
-.section-title{
-    font-size: 97px;
-    font-weight: bold;
-    
+.section-title {
+  font-size: 97px;
+  font-weight: bold;
 }
-section input[type="email"], section input[type="text"], section textarea{
-    height: 60px;
-    border-radius: 5px;
-    border: none;
-    background-color: white;
-    display: block;
-    width: 100%;
-    padding: 10px 20px;
-    margin-bottom: 25px;
+section input[type="email"],
+section input[type="text"],
+section textarea {
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 25px;
 }
 /* footer styles */
-footer{
-    padding: 105px 450px ;
-    text-align: center;
+footer {
+  padding: 105px 450px;
+  text-align: center;
 }
-.footer-section{
-    width: 100%;
+.footer-section {
+  width: 100%;
 }
-.footer-title{
-    color: #4E47FF;
-    font-size: 100px;
-    font-weight: 900;
-    margin-top: 200px;
+.footer-title {
+  color: #4e47ff;
+  font-size: 100px;
+  font-weight: 900;
+  margin-top: 200px;
 }
-.footer-subtitle{
-    color: #8987A1;
+.footer-subtitle {
+  color: #8987a1;
 }
-footer a{
-    text-decoration: none;
-    color: #8987A1;
-    margin: 20px;
+footer a {
+  text-decoration: none;
+  color: #8987a1;
+  margin: 20px;
 }
